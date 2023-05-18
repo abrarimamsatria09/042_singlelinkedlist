@@ -90,4 +90,12 @@ bool listEmpty() {
 
 }
 
+void treverse() {
+	if (listEmpty()) {
+		cout << " List Kosong " << endl;
+		system("pause");
+		system("cls");
+		return;
+	}
+
 
